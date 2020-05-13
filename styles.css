@@ -1,0 +1,156 @@
+body {
+margin: 0 41.6px;
+  background-color: #fafafa;
+  text-align: center;
+font-family: 'Poppins', serif;
+font-size: 15px;
+}
+
+h1 {
+  font-size: 1.9rem;
+  margin-bottom: 0.1px;
+}
+
+h2 {
+  margin: 1.4em 0 0 0;
+  display: inline-block;
+}
+
+img {
+  position: relative;
+   left: 200px;
+}
+
+.first-two-rows {
+  margin: 5rem auto 0.5rem;
+  display: inline-block;
+  color: #4c4e61;
+}
+
+.first-row {
+  font-weight: 200;
+margin-bottom: 0;
+font-size: 1.5rem;
+}
+
+.second-row {
+  margin-top: 0;
+  color: #4c4e61;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.header-text {
+  display: inline-block;
+  margin: 0 0 6rem;
+  color: #a3a5ae;
+}
+
+.box-header {
+  margin: 1em 1.33em 0em;
+  font-weight: bold;
+  display: block;
+  font-size: 22px;
+  color: #4c4e61;
+}
+
+.box-text {
+  margin: 0 2.33em 2.5em;
+  color: #a3a5ae;
+  font-size: 13px;
+}
+
+.supervisor {
+  display: inline-block;
+  position: relative;
+  margin: auto 0;
+width: 291.8px;
+height: 220px;
+background-color: #ffffff;
+text-align: left;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-top: 5px solid;
+border-top-color: #45d3d3;
+border-radius: 8px;
+margin-bottom: 30px;
+}
+
+.team-builder {
+  display: inline-block;
+  position: relative;
+  margin: auto 0;
+width: 291.8px;
+height: 220px;
+background-color: #ffffff;
+text-align: left;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-top: 5px solid;
+border-top-color: #ea5353;
+border-radius: 8px;
+margin-bottom: 30px;
+}
+
+.karma {
+  display: inline-block;
+  position: relative;
+  margin: auto 0;
+width: 291.8px;
+height: 220px;
+background-color: #ffffff;
+text-align: left;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-top: 5px solid;
+border-top-color: #fcaf4a;
+border-radius: 8px;
+margin-bottom: 30px;
+}
+
+.calculator {
+  display: inline-block;
+  position: relative;
+  margin: auto 0;
+width: 291.8px;
+height: 220px;
+background-color: #ffffff;
+text-align: left;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-top: 5px solid;
+border-top-color: #549ef2;
+border-radius: 8px;
+margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .first-two-rows {
+    margin: 3rem auto 1rem;
+  }
+
+  .header-text {
+    width: 35%;
+    margin: 0 0 4rem;
+  }
+
+  .supervisor {
+    position: relative;
+top: 112.5px;
+right: 30px;
+  }
+
+  .team-builder {
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  .karma {
+    position: relative;
+    right: 295.8px;
+  top: 250px;
+  }
+
+  .calculator {
+    position: relative;
+    bottom: 140.8px;
+left: 325.8px;
+  }
+}
